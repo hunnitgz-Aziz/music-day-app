@@ -1,0 +1,25 @@
+{
+	"albums": [
+		{
+			"album_cover": "https://albumartexchange.com/coverart/gallery/bl/bluexile_belowtheheavens_1f86.jpg",
+			"release_date": "September 2007",
+			"artist": "Blu",
+			"album_name": "Below The Heaves",
+			"id": "1"
+		},
+		{
+			"album_cover": "https://albumartexchange.com/coverart/gallery/sw/sweettrip_velocitydesigncomfor_7x23.jpg",
+			"release_date": "June 2003",
+			"artist": "Sweet Trip",
+			"album_name": "Velocity:Design:Comfort",
+			"id": "2"
+		},
+		{
+			"album_cover": "http://www.veamusic.com/catalogue/images/suan.jpg",
+			"release_date": "November 1968",
+			"artist": "Armando Piaza",
+			"album_name": "Suan",
+			"id": "3"
+		}
+	]
+}
