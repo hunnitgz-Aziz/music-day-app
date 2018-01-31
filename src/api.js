@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import classNames from 'classnames';
 import ReactDOM from 'react-dom';
+import AlbumContainer from './containers/album_container';
+import AlbumList from './components/album_list';
 
 export default class AlbumComponent extends React.Component {
   constructor(props) {
@@ -8,7 +10,7 @@ export default class AlbumComponent extends React.Component {
     this.state = {
       error: null,
       isLoaded: false,
-      items: []
+      albums: []
     };
   }
 
@@ -44,17 +46,10 @@ export default class AlbumComponent extends React.Component {
         return <div>Loading...</div>;
       } else {
         return (
-          <ul>
-            {albums.map(album => 
-              <li key={album.id}>
-                <img src={album.album_cover}/>
-                {album.album_name} 
-                {album.artist}
-                {album.release_date}
-              </li>
-            )}
-          </ul>
+          React.createElement(AlbumList, {albums: this.state.albums})
+         
         )
       }
     }
   }
+

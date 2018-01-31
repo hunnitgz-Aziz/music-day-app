@@ -5,6 +5,7 @@
 			"release_date": "September 2007",
 			"artist": "Blu",
 			"album_name": "Below The Heaves",
+			"provider_link": "https://open.spotify.com/album/2OnNdRdzqs0Xe6VU2uGdPe",
 			"id": "1"
 		},
 		{
@@ -12,6 +13,7 @@
 			"release_date": "June 2003",
 			"artist": "Sweet Trip",
 			"album_name": "Velocity:Design:Comfort",
+			"provider_link": "https://open.spotify.com/album/0eUUQ4rly8Q8PyJPWLgde2", 
 			"id": "2"
 		},
 		{
@@ -19,6 +21,7 @@
 			"release_date": "November 1968",
 			"artist": "Armando Piaza",
 			"album_name": "Suan",
+			"provider_link": "https://open.spotify.com/album/3T9odzSEe7okS4VhLVByCS",
 			"id": "3"
 		}
 	]
