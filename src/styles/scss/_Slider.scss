@@ -1,0 +1,10 @@
+.slider {
+  display: flex;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+
+  .album-day-block {
+  	flex-shrink: 0;
+	  width: 300px;
+  }
+}

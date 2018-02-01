@@ -6,20 +6,21 @@ import Artwork from './album';
 import ProviderLink from './provider_links';
 import ReactSwipe from 'react-swipe';
 import ReactDOM from 'react-dom';
+import Carousel from 'nuka-carousel';
 
 const AlbumList = ({albums}) => (
-   <ReactSwipe className="albums-list-container carousel" swipeOptions={{continuous: true}}>
+   <Carousel className="albums-list-container slider">
     {albums.map(album => 
       <div key={album.id} className="album-day-block">
+        <Artwork album_cover={album.album_cover}/>
 	      <AlbumInfo 
 	      		album_name={album.album_name}
 	      		artist={album.artist}
 	      		release_date={album.release_date} />
 	      <ProviderLink provider_link={album.provider_link}/>
-        <Artwork album_cover={album.album_cover}/>
       </div>
     )}
-  </ReactSwipe>
+  </Carousel>
 )
 
 export default AlbumList;
