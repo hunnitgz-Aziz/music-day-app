@@ -1,0 +1,27 @@
+@font-face {
+	font-family: "Druk Wide";
+	src: url('https://s3.us-east-2.amazonaws.com/album-of-the-day/fonts/DrukWide-Super-Web.ttf') format('truetype'), 
+				url('https://s3.us-east-2.amazonaws.com/album-of-the-day/fonts/DrukWide-Super-Web.eot') format('embedded-opentype'),
+				url('https://s3.us-east-2.amazonaws.com/album-of-the-day/fonts/DrukWide-Super-Web.woff') format('woff'),
+				url('https://s3.us-east-2.amazonaws.com/album-of-the-day/fonts/DrukWide-Super-Web.svg') format('svg'),;
+}
+
+@font-face {
+	font-family: "Circular";
+	src: url('https://s3.us-east-2.amazonaws.com/album-of-the-day/fonts/CircularStd-Book.otf') format('opentype'), 
+				url('https://s3.us-east-2.amazonaws.com/album-of-the-day/fonts/CircularStd-Book.eot') format('embedded-opentype'),
+				url('https://s3.us-east-2.amazonaws.com/album-of-the-day/fonts/CircularStd-Book.woff') format('woff'),
+				url('https://s3.us-east-2.amazonaws.com/album-of-the-day/fonts/CircularStd-Book.svg') format('svg'),;
+}
+
+@font-face {
+	font-family: "Circular Bold";
+	src: url('https://s3.us-east-2.amazonaws.com/album-of-the-day/fonts/CircularStd-Bold.otf') format('opentype'), 
+				url('https://s3.us-east-2.amazonaws.com/album-of-the-day/fonts/CircularStd-Bold.eot') format('embedded-opentype'),
+				url('https://s3.us-east-2.amazonaws.com/album-of-the-day/fonts/CircularStd-Bold.woff') format('woff'),
+				url('https://s3.us-east-2.amazonaws.com/album-of-the-day/fonts/CircularStd-Bold.svg') format('svg'),;
+}
+
+$title: "Druk Wide";
+$sans: "Circular";
+$sans-bold: "Circular Bold";

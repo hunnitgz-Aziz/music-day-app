@@ -163,7 +163,7 @@ module.exports = {
           // In production, we use a plugin to extract that CSS to a file, but
           // in development "style" loader enables hot editing of CSS.
           {
-            test: /\.scss$/,
+            test: /\.css$/,
             use: [
               require.resolve('style-loader'),
               {
@@ -173,7 +173,7 @@ module.exports = {
                 },
               },
               {
-                loader: require.resolve('sass-loader'),
+                loader: require.resolve('postcss-loader'),
                 options: {
                   // Necessary for external CSS imports to work
                   // https://github.com/facebookincubator/create-react-app/issues/2677

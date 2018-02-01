@@ -5,7 +5,7 @@ import AlbumComponent from '../api.js';
 export default class Artwork extends Component {
 	render() {
 		return (
-			<img src={this.props.album_cover}/>
+			<img className="fade-in two" src={this.props.album_cover}/>
 		)
 	}
 }

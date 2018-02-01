@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import classNames from 'classnames';
 import ReactDOM from 'react-dom';
-import AlbumContainer from './containers/album_container';
 import AlbumList from './components/album_list';
 
 export default class AlbumComponent extends React.Component {

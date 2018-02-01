@@ -1,0 +1,39 @@
+.albums-list-container {
+	margin: auto;
+	width: 80% !important;
+	height: 100vh !important;
+}
+
+.album-day-block {
+	max-width: 630px !important;
+	margin: auto;
+
+	img {
+		display: block;
+		max-width: 100%;
+	}
+
+	.album-info-container {
+		float: left;
+
+		p { 
+			font-family: $sans;
+			margin: 0; 
+		}
+	}
+
+	.provider-link-container {
+		float: right;
+
+		a {
+			color: black;
+			font-family: $sans-bold;
+			text-decoration: none;
+		}
+	}
+
+	.album-info-container, .provider-link-container {
+		margin-top: 1rem;
+	}
+
+}

@@ -9,7 +9,7 @@ import ReactDOM from 'react-dom';
 import Carousel from 'nuka-carousel';
 
 const AlbumList = ({albums}) => (
-   <Carousel className="albums-list-container slider">
+   <Carousel className="albums-list-container slider fade-in one">
     {albums.map(album => 
       <div key={album.id} className="album-day-block">
         <Artwork album_cover={album.album_cover}/>

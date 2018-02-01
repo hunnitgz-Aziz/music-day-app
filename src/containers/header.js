@@ -6,9 +6,8 @@ import ProviderLink from '../components/provider_links';
 export default class Header extends Component {
 	render() {
 		return (
-			<div className="inner-wrap">
-				// <AlbumInfo />
-				// <ProviderLink />
+			<div className="header-wrap">
+				<h2>Album of the Day</h2>
 			</div>
 		)
 	}
