@@ -1,15 +1,15 @@
 {
 	"albums": [
 		{
-			"album_cover": "https://albumartexchange.com/coverart/gallery/bl/bluexile_belowtheheavens_1f86.jpg",
-			"release_date": "September 2007",
-			"artist": "Blu",
-			"album_name": "Below The Heaves",
-			"provider_link": "https://open.spotify.com/album/2OnNdRdzqs0Xe6VU2uGdPe",
+			"album_cover": "https://f4.bcbits.com/img/a0269208298_10.jpg",
+			"release_date": "January 2018",
+			"artist": "JPEGMAFIA",
+			"album_name": "Veteran",
+			"provider_link": "https://open.spotify.com/album/22LKdgY3vLsAsWrOafwCM3",
 			"id": "1"
 		},
 		{
-			"album_cover": "https://albumartexchange.com/coverart/gallery/sw/sweettrip_velocitydesigncomfor_7x23.jpg",
+			"album_cover": "https://f4.bcbits.com/img/a2820509001_10.jpg",
 			"release_date": "June 2003",
 			"artist": "Sweet Trip",
 			"album_name": "Velocity:Design:Comfort",
@@ -18,10 +18,10 @@
 		},
 		{
 			"album_cover": "http://www.veamusic.com/catalogue/images/suan.jpg",
-			"release_date": "November 1968",
-			"artist": "Armando Piaza",
+			"release_date": "XX 1972",
+			"artist": "Armando Piazza",
 			"album_name": "Suan",
-			"provider_link": "https://open.spotify.com/album/3T9odzSEe7okS4VhLVByCS",
+			"provider_link": "https://www.youtube.com/watch?v=Wkf51qVf0Bc&list=PLZZNcS6O1bVLmQM4qVRzLw4zPueFQKM01",
 			"id": "3"
 		}
 	]

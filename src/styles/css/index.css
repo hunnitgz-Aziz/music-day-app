@@ -154,6 +154,32 @@
       color: black;
       font-family: "Circular Bold";
       text-decoration: none; }
+      .album-day-block .provider-link-container a span {
+        cursor: pointer;
+        display: block;
+        position: relative; }
+        .album-day-block .provider-link-container a span:before, .album-day-block .provider-link-container a span:after {
+          content: '';
+          position: absolute;
+          width: 0%;
+          height: 1px;
+          top: 50%;
+          margin-top: -0.5px;
+          background: black; }
+        .album-day-block .provider-link-container a span:before {
+          left: -2.5px; }
+        .album-day-block .provider-link-container a span:after {
+          right: 2.5px;
+          background: black;
+          transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1); }
+        .album-day-block .provider-link-container a span:hover:before {
+          background: black;
+          width: 100%;
+          transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1); }
+        .album-day-block .provider-link-container a span:hover:after {
+          background: transparent;
+          width: 100%;
+          transition: 0s; }
   .album-day-block .album-info-container, .album-day-block .provider-link-container {
     margin-top: 1rem; }
 
