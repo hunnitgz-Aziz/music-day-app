@@ -49,6 +49,11 @@
   -moz-animation-delay: 2s;
   animation-delay: 2s; }
 
+.fade-in.five {
+  -webkit-animation-delay: 2.4s;
+  -moz-animation-delay: 2.4s;
+  animation-delay: 2.4s; }
+
 .App {
   text-align: center; }
 
@@ -184,7 +189,8 @@
     margin-top: 1rem; }
 
 body {
-  margin: 0; }
+  margin: 0;
+  position: relative; }
 
 .header-wrap {
   position: absolute;
@@ -209,5 +215,15 @@ body {
     @media (min-width: 1000px) {
       .header-wrap h2 {
         font-size: 64px; } }
+
+.preloader {
+  background: url(../../images/preloader.gif) no-repeat center center/contain;
+  background-size: 128px;
+  height: 100vh;
+  width: 100vh;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%); }
 
 /*# sourceMappingURL=index.css.map */

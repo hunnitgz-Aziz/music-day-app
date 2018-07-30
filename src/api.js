@@ -40,9 +40,9 @@ export default class AlbumComponent extends React.Component {
     render() {
       const { error, isLoaded, albums } = this.state;
       if (error) {
-        return <div>Error: {error.message}</div>;
+        return <div className="error-loader">Error: {error.message}</div>;
       } else if (!isLoaded) {
-        return <div>Loading...</div>;
+        return <div className="preloader"></div>;
       } else {
         return (
           React.createElement(AlbumList, {albums: this.state.albums})
