@@ -48,7 +48,8 @@
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
     "sass": "sass --watch src/styles/scss:src/styles/css",
-    "sass:build": "sass src/styles/scss:src/styles/css"
+    "sass:build": "sass src/styles/scss:src/styles/css",
+    "dist": "surge --domain music-day-app.surge.sh"
   },
   "devDependencies": {
     "classnames": "^2.2.5",
