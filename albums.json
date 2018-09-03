@@ -23,6 +23,14 @@
 			"album_name": "Suan",
 			"provider_link": "https://www.youtube.com/watch?v=Wkf51qVf0Bc&list=PLZZNcS6O1bVLmQM4qVRzLw4zPueFQKM01",
 			"id": "3"
+		},
+		{
+			"album_cover": "https://f4.bcbits.com/img/a0610116977_10.jpg",
+			"release_date": "September 2017",
+			"artist": "Deerhoof",
+			"album_name": "Mountain Moves",
+			"provider_link": "https://deerhoof.bandcamp.com/album/mountain-moves-3",
+			"id": "4"
 		}
 	]
 }
