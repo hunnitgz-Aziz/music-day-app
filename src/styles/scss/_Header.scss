@@ -15,4 +15,9 @@
 		-webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
 	}
+
+	  @media only screen and (max-width: 768px) {
+	  	width: 80%;
+	  	top: 15%;
+	  }
 }
