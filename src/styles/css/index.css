@@ -137,6 +137,11 @@
     .slider-decorator-0, .slider-decorator-1 {
       display: none; } }
 
+.slider-decorator-2 {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+
 .albums-list-container {
   margin: auto;
   width: 80% !important;
