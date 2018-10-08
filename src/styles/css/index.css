@@ -88,7 +88,8 @@
   font-family: "Circular Bold";
   src: url("https://s3.us-east-2.amazonaws.com/album-of-the-day/fonts/CircularStd-Bold.otf") format("opentype"), url("https://s3.us-east-2.amazonaws.com/album-of-the-day/fonts/CircularStd-Bold.eot") format("embedded-opentype"), url("https://s3.us-east-2.amazonaws.com/album-of-the-day/fonts/CircularStd-Bold.woff") format("woff"), url("https://s3.us-east-2.amazonaws.com/album-of-the-day/fonts/CircularStd-Bold.svg") format("svg"); }
 .slider-list {
-  height: 100vh !important; }
+  height: 100vh !important;
+  display: flex !important; }
   .slider-list .slider-slide {
     height: 100vh !important;
     display: flex !important; }
