@@ -57,6 +57,7 @@
     "nuka-carousel": "^3.0.1",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
+    "react-ga": "^2.5.3",
     "react-slick": "^0.17.1",
     "react-swipe": "^5.1.1",
     "sass-loader": "^6.0.6",
