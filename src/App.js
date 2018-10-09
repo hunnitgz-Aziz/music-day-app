@@ -9,6 +9,10 @@ function initializeReactGA() {
 }
 
 class App extends Component {
+	componentDidMount() {
+		initializeReactGA();
+	}
+	
   render() {
     return (
       <div className="main">
